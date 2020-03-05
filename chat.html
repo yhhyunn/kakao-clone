@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body ">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:44</span>
@@ -42,25 +42,52 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
-        <li class="incoming-messages message">
+        <li class="incoming-message message">
           <img src="img/piece.jpg" class="m-avatar message" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message_bubble">
+            <span class="message__bubble">
               Congrats, I love u!
-            </div>
+            </span>
+            <span class="message__author">Best Friend</span>
           </div>
           <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-messages message">
-          <span class="message__timestamp"></span>
+        <li class="sent-message message">
+          <!-- <span class="message__timestamp"></span> -->
           <div class="message__content">
-            <div class="message_bubble">
-              Congrats, I love u!
-            </div>
+            <span class="message__bubble">
+              What up?
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="img/piece.jpg" class="m-avatar message" />
+          <div class="message__content">
+            <span class="message__bubble">
+              I'm good
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <!-- <span class="message__timestamp"></span> -->
+          <div class="message__content">
+            <span class="message__bubble">
+              Anything Else?
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <!-- <span class="message__timestamp"></span> -->
+          <div class="message__content">
+            <span class="message__bubble">
+              What Can I do 4 u?
+            </span>
           </div>
         </li>
       </ul>
