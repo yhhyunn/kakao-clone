@@ -93,18 +93,20 @@
       </ul>
     </main>
 
-    <div class="chat__write">
-      <div class="chat__write-column">
+    <div class="chat__write--container">
+      <input
+        class="chat__write"
+        type="text"
+        placeholder="Send Message"
+        class="chat__write-input"
+      />
+      <!-- 인풋을 아이콘 앞에 놓고 싶어서 이렇게 구성 -->
+      <!-- 아이콘이 Input다음에 나와야 .css에서 Transition 효과를 낼 수 있음 -->
+      <div class="chat__icon-left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write-column">
-        <input
-          type="text"
-          placeholder="Send Message"
-          class="chat__write-input"
-        />
-      </div>
-      <div class="chat__write-column">
+
+      <div class="chat__icon-right chat__icon">
         <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>

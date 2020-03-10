@@ -10,10 +10,9 @@
   background-image: url('../img/geometric-leaves.png');
   min-height: 100vh;
 }
-.chat__write {
+.chat__write--container {
   position: fixed;
-  bottom: 50px;
-  width: 80%;
+  bottom: 0px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -22,9 +21,42 @@
   align-items: center;
   background-color: #fcfcfc;
   padding: 0px 20px;
-  border-radius: 40px;
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+
+  /* box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
+}
+
+.chat__write {
+  bottom: 0px;
+  width: 100%;
+  border-radius: 0;
+  padding: 20px 50px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.chat__icon-left {
+  position: absolute;
+}
+
+.chat__icon-right {
+  position: absolute;
+  right: 10px;
+}
+
+.chat__write:focus {
+  outline: none;
+}
+
+.chat__icon {
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* ~는 나중에 나오는 sibling을 클릭할 수 있음 */
+.chat__write:focus ~ .chat__icon {
+  opacity: 0;
 }
 
 .chat__write i {
@@ -40,10 +72,6 @@
   width: 100%;
   border: none;
   font-size: 14px;
-}
-
-.chat__write-column input:focus {
-  outline: none;
 }
 
 .chat-screen .chat__messages {
