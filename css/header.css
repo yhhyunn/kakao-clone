@@ -3,8 +3,8 @@
   width: 100%;
   left: 0px;
   top: 0px;
-  background-color: #fcfcfc;
-  opacity: 0.75;
+  background-color: #1c1e1f;
+  /* opacity: 0.5; */
   margin-top: 36px;
 
   display: flex;
@@ -12,6 +12,10 @@
   align-items: center;
   margin-bottom: 30px;
 }
+
+/* white--version */
+/* 
+bgc : #fcfcfc*/
 
 .header .header__header-column {
   padding: 10px 15px 20px 15px;

@@ -2,18 +2,27 @@
   /* padding-bottom: 20px; */
   /* border-bottom: px solid #f7f7f7; */
 }
+.friends .friends__favorites,
+.friends .friends__birthday {
+  margin: 20px 0px;
+  padding: 20px 0px 0px 0px;
+  /* border-bottom: 1px solid #f7f7f7; */
+  border-top: 1px solid #f7f7f7;
+}
 
 .friends .friends__plus {
   margin: 20px 0px;
-  padding: 20px 0px;
+  padding: 20px 0px 0px 0px;
   border-bottom: 1px solid #f7f7f7;
   border-top: 1px solid #f7f7f7;
 }
 
+.friends__favorites .friends__title,
+.friends__birthday .friends__title,
 .friends__plus .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   margin-bottom: 12px;
 }
 
@@ -24,7 +33,7 @@
   font-size: 14px;
 }
 .friend__now-listening span {
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 .friend__now-listening i {

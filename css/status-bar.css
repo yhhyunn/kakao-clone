@@ -3,14 +3,16 @@
   width: 100%;
   left: 0px;
   top: 0px;
-  background-color: #fcfcfc;
+  background-color: #1c1e1f;
 
   display: flex;
   justify-content: space-between;
-  opacity: 0.75;
-  color: black;
+  /* opacity: 0.5; */
+  color: white;
   margin-bottom: 20px;
 }
+
+/* bg color : fcfcfc */
 
 .status-bar .status-bar__column {
   padding: 10px 20px;
