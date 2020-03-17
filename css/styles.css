@@ -8,10 +8,10 @@
 @import 'friend.css';
 @import 'friends.css';
 @import 'find.css';
-@import 'more.css';
 @import 'settings.css';
 @import 'chat.css';
 @import 'mobile.css';
+@import 'more.css';
 
 * {
   box-sizing: border-box;

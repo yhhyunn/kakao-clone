@@ -20,6 +20,7 @@
 
 .status-bar i {
   font-size: 14px;
+  padding-left: 2px;
 }
 
 .status-bar .status-bar__battery-level {

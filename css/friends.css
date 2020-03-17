@@ -3,6 +3,7 @@
   /* border-bottom: px solid #f7f7f7; */
 }
 .friends .friends__favorites,
+.friends .friends__plus,
 .friends .friends__birthday {
   margin: 20px 0px;
   padding: 20px 0px 0px 0px;
@@ -10,7 +11,7 @@
   border-top: 1px solid #f7f7f7;
 }
 
-.friends .friends__plus {
+.friends .friends__channel {
   margin: 20px 0px;
   padding: 20px 0px 0px 0px;
   border-bottom: 1px solid #f7f7f7;
@@ -32,12 +33,25 @@
   border: 2px solid #52af73;
   font-size: 14px;
 }
+
+.friend .friend__now-giftshop {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #9e9f9f;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
 .friend__now-listening span {
   /* opacity: 0.6; */
 }
 
 .friend__now-listening i {
   font-size: 12px;
+}
+
+.iconpic i {
+  font-size: 24px;
 }
 
 .friend__add-btn {
